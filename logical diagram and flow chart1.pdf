@@ -1,0 +1,56 @@
+LOGICAL DIAGRAM
+
+
+
+START
+|
+v
+Assign x to XX
+|
+v
+Calculate length
+|
+v
+FOR each value i in the range from 0 to length (exclusive)
+|    |
+|    v
+|   Check if XX[i] is not equal to XX[-i-1]
+|   |
+|   v
+|  Return False
+|
+v
+Return True
+|
+v
+END
+
+
+
+
+
+FLOW CHART
+
+
+START
+|
+v
+Assign x to XX
+|
+v
+Calculate the length of XX and divide by 2, assign it to length
+|
+v
+FOR each value i in the range from 0 to length (exclusive)
+|    |
+|    v
+|   Check if XX[i] is not equal to XX[-i-1]
+|   |
+|   v
+|  Return False
+|
+v
+Return True
+|
+v
+END
